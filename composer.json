@@ -1,0 +1,6 @@
+{
+    "name": "necodeo/socket",
+    "require": {
+        "php": ">=7.4"
+    }
+}
