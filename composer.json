@@ -1,6 +1,23 @@
 {
     "name": "necodeo/socket",
-    "require": {
+	"type": "library",
+    "description": "",
+    "version": "1.0.1",
+    "keywords": [],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dawid Smulewicz",
+			"homepage": "https://dawid.smulewicz.pro/",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Socket\\": "src"
+		}
+	},
+	"require": {
         "php": ">=7.4"
     }
 }
